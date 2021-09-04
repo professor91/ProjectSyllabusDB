@@ -7,11 +7,11 @@ Whenever I move to next semester first thing I do is look at the syllabus and ge
 # What to do
 
 I am gonna need couple of hands because this one's a big task, anyone who want to be a part of this project and contribute to it just hit me up on my mail @
-keshavandteam@gmail.com
+keshavandteam@gmail.com and let me know which task you are taking up. You can also message me on discord (Id:- Professor#0785)
 
 Following are the tasks that we need to do:
 
-<h3> Collect data about the courses: </h3>
+<u> Collect data about the courses: </u>
 
   Get the latest pdf of the syllabus of a programme and fill in the required data in the google sheet. To get access to the sheet mail me your email id @
   keshavandteam@gmail.com
