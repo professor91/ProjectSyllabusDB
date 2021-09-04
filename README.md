@@ -11,7 +11,7 @@ keshavandteam@gmail.com and let me know which task you are taking up. You can al
 
 Following are the tasks that we need to do:
 
-<u> Collect data about the courses: </u>
+<h3> Collect data about the courses: </h3>
 
   Get the latest pdf of the syllabus of a programme and fill in the required data in the google sheet. To get access to the sheet mail me your email id @
   keshavandteam@gmail.com
