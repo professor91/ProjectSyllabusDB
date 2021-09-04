@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sub-header h1{
+    padding: 5px 10px;
+    color: black;
+}
+.top-bar{
+    box-sizing: border-box; 
+    height: 25px; 
+    background-color: #dddddd;
+}
+
+/*************************************** Navigation Menu ***************************************/
+nav{
+    display: flex;
+    padding: 0% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-size: 32px;
+    color: #fff;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Hover effect on menu */
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #479761;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+/*************************************** Main Container ***************************************/
+.container{
+    font-size: 20px;
+}
+
+/*************************************** Course Intro ***************************************/
+
+.outcomes-col-row{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+/*************************************** Detailed Syllabus ***************************************/
+
+.units-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1.0em;
+    min-width: 400px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+.units-table td{
+    padding: 12px 15px;
+}
+
+.units-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+.units-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.units-table tbody tr:last-of-type{
+    border-bottom: 0px;
+}
+
+/*************************************** Books & Resources ***************************************/
+
+.books ul li{
+    padding-bottom: 5px;
+}
+
+.footer{
+    box-sizing: border-box;
+    height: 300px;
+    width: 100%;
+    padding-top: 50px;
+    background-color: #19181A;
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer-content{
+    padding-left: 350px;
+    display: flex;
+}
+
+.credits a{
+    text-decoration: none;
+    color: #009879;
+}
+
+/* 
+#19181a
+#479761
+#cebc81
+#a16e83
+#b19f9e */

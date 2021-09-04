@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sub-header{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.sub-header h1{
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    padding: 5px 5px;
+    color: #333333;
+    border-radius: 5px;
+}
+
+/*************************************** Navigation Menu ***************************************/
+nav{
+    display: flex;
+    padding: 0% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-size: 32px;
+    color: #fff;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+/* Hover effect on menu */
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #009879;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+/*************************************** Main Container ***************************************/
+.container{
+    width: 65%;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+/********************* Course Table *********************/
+
+.syllabus-table{
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: 1.1em;
+    min-width: 400px;
+    border-radius: 6px 6px 0 0;
+    overflow: hidden;
+}
+
+.syllabus-table:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.25);
+    transition: 0.3s;
+}
+
+.syllabus-table thead tr{
+    background-color: #009879;
+    color: #fff;
+    font-weight: bold;
+}
+
+.syllabus-table th{
+    padding: 12px 6px;
+}
+
+.syllabus-table th a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.syllabus-table td{
+    padding: 2px 5px;
+}
+
+.syllabus-table tbody tr:last-of-type{
+    border-bottom: 3px solid #009879;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+/*********************** Course List ***********************/
+
+.course-list a{
+    text-decoration: none;
+    color: black;
+}
+
+.dsc-course-name{
+    padding-bottom: 5px;
+}
+
+.dse-course-name{
+    padding-bottom: 5px;
+}
+
+.sec-course-name{
+    padding-bottom: 5px;
+}
+
+.aecc-course-name{
+    padding-bottom: 5px;
+}
+
+.ge-course-name{
+    padding-bottom: 5px;
+}
+
+.dsc-block:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    transition: 0.2s;
+}
+
+.dse-block:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    transition: 0.2s;
+}
+
+.sec-block:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    transition: 0.2s;
+}
+
+.aecc-block:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    transition: 0.2s;
+}
+
+.ge-block:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    transition: 0.2s;
+}
+
+.depart-ge-block a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*********************** Smaller Screens ***********************/
+
+@media(max-width:1000px) {
+    .container{
+        width: 95%;
+        margin: auto;
+    }
+}
+
+@media(max-width:700px){
+    
+}
+
+.footer{
+    box-sizing: border-box;
+    height: 300px;
+    width: 100%;
+    padding-top: 50px;
+    background-color: #19181A;
+    color: #fff;
+    font-size: 20px;
+}
+
+.credits a{
+    text-decoration: none;
+    color: #009879;
+}
