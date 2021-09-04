@@ -28,5 +28,6 @@ Following are the tasks that we need to do:
   I am good with coding but trust me I can be horrible when it comes to designing things so I am gonna need a hand in that. You need work on improvising the design
   of the webpage.
   
+# Sample Website
 To get a glimpse of what the website would look like, clone the repository locally and go to bscHCS folder and open bscCS.html file. This is the webpage I designed
 for BSc Hons. Computer Science course as per the latest syllabus (2019-2020).
