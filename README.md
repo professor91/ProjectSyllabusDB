@@ -11,7 +11,7 @@ keshavandteam@gmail.com
 
 Following are the tasks that we need to do:
 
-<h3> Collect data about the courses: <h3>
+<h3> Collect data about the courses: </h3>
 
   Get the latest pdf of the syllabus of a programme and fill in the required data in the google sheet. To get access to the sheet mail me your email id @
   keshavandteam@gmail.com
@@ -20,11 +20,11 @@ Following are the tasks that we need to do:
   Link:- <a href="https://docs.google.com/spreadsheets/d/1h1mBcga53Sn_jPlCxbWoGJKs6_WcMs9EWP6vqZx-hCg/edit?usp=sharing">Cick Me</a>
   
   
-<h3> Prepare Webpage for a course: <h3>
+<h3> Prepare Webpage for a course: </h3>
   Code webpage for the courses whose data is available in the sheet. To get acess to that sheet mail me at above mentioned mail. Well you need to know HTML & CSS at
   the least if you wanna do this one.
   
-<h3> Help in designing the webpage: <h3>
+<h3> Help in designing the webpage: </h3>
   I am good with coding but trust me I can be horrible when it comes to designing things so I am gonna need a hand in that. You need work on improvising the design
   of the webpage.
   
