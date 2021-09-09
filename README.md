@@ -29,5 +29,5 @@ Following are the tasks that we need to do:
   of the webpage.
   
 # Sample Website
-To get a glimpse of what the website would look like, clone the repository locally and go to bscHCS folder and open bscCS.html file. This is the webpage I designed
-for BSc Hons. Computer Science course as per the latest syllabus (2019-2020).
+To get a glimpse of what the website would look like go to this link:- <a href="https://sainikeshav.github.io/SyllabusWebPreview/">Page Preview</a>
+
