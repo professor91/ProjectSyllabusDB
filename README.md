@@ -17,7 +17,7 @@ Following are the tasks that we need to do:
   keshavandteam@gmail.com
   
   Here I have listed all the UG programmes offered by DU and their status. Please go through to get a picture of the progress of the project.
-  Link:- <a href="https://docs.google.com/spreadsheets/d/1h1mBcga53Sn_jPlCxbWoGJKs6_WcMs9EWP6vqZx-hCg/edit?usp=sharing">Cick Me</a>
+  Link:- <a href="https://docs.google.com/spreadsheets/d/1h1mBcga53Sn_jPlCxbWoGJKs6_WcMs9EWP6vqZx-hCg/edit?usp=sharing">List of Courses</a>
   
   
 <h3> Prepare Webpage for a course: </h3>
