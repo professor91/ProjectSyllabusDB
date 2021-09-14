@@ -2,7 +2,7 @@
 
 The Project aims to present syllabus of all the courses, offered Delhi University, in a more interactive manner than pdfs.
 
-Whenever I move to next semester first thing I do is look at the syllabus and get familier with the course and the topics that will be covered. I believe by looking at the syllabus you get to know what to expect from the courses you are taking up and how to manage it with other ventures that you are on.
+At first, I made it for fun but then I realized since I rarely attend classes, it helps to catch up with the class in no time as now I know what all stuff I should be expecting and on top of that I don't need to scroll tens of pages of pdfs to find the syllabus of a course, it's just one click away now.
 
 # What to do
 
