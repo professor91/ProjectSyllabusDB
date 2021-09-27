@@ -17,14 +17,10 @@ Following are the tasks that we need to do:
   Here I have listed all the UG programmes offered by DU and their status. Please go through to get a picture of the progress of the project.
   Link:- <a href="https://docs.google.com/spreadsheets/d/1h1mBcga53Sn_jPlCxbWoGJKs6_WcMs9EWP6vqZx-hCg/edit?usp=sharing">List of Courses</a>
 
-<h3> Help in designing the webpage: </h3>
-  I am good with coding but trust me I can be horrible when it comes to designing things so I am gonna need a hand in that. You need work on improvising the design
-  of the webpage.
-  
 <h3> Validate the Content of the Webpage </h3>
-  The person who is enrolled knows better than anyone the syllabus of the course, so if you are enrolled in a course you would want to validate if the information
-  that we have added in the webpage is correct and up to date or not.
-  
-# Sample Website
-To get a glimpse of what the website would look like go to this link:- <a href="https://sainikeshav.github.io/SyllabusWebPreview/">Page Preview</a>
+  The person who is enrolled knows better than anyone the syllabus of the course, so if you are enrolled in a course you can validate if the information 
+  on the website is correct and up to date or not.
+ 
+# Live Website
+Check out the live website here:- <a href="https://sainikeshav.github.io/ProjectSyllabusDB/">Project Syllabus Web</a>
 
