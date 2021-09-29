@@ -7,7 +7,7 @@ course, and where it can take you in your career. And I think many of you feel t
 
 # What to do
 
-Go to <a href="https://sainikeshav.github.io/ProjectSyllabusDB/contribute/contribute.html">Contribute</a> page learn more on how you can contribute to the project.
+Go to <a href="https://sainikeshav.github.io/ProjectSyllabusDB/contribute/contribute.html" target="_blank">Contribute</a> page learn more on how you can contribute to the project.
 
 # Live Website
 Check out the live website here:- <a href="https://sainikeshav.github.io/ProjectSyllabusDB/">Project Syllabus Web</a>
