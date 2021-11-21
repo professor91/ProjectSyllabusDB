@@ -1,386 +1,518 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <title>Course</title>
-        <link rel="stylesheet" href="../CSS/bscH.css">
-    </head>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <style>
-        .sec-course-name,
-        .dse-course-name{
-            padding-left: 70px;
-        }
-    </style>
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+        crossorigin="anonymous">
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous">
+    </script>
+    
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+        crossorigin="anonymous">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../../index.css">
+    <link rel="stylesheet" href="../CSS/bscH.css">
+
+    <title>BSc CS Hons</title>
+</head>
+
 <body>
+    <!-- NavBar -->
+    <nav
+        class="navbar navbar-expand-lg navbar-light static-top"
+        style="padding: 10px 20px;">
+        <div
+            class="container-fluid">
+            <a
+                class="navbar-brand h1 text-primary"
+                href="index.html"
+                style="font-size: 40px;">
+                <!-- style="color: #5375E2;" -->
+                Syllabus Web
+            </a>
 
-<!-- Top Header -->
-<section class= "top-header">
-	<nav class="nav">
-		<h1>BSc (Hons) Computer Science</h1>
-		<div class="nav-links">
-			<ul>
-				<li><a href="../../index.html">HOME</a></li>
-				<li><a href="#">ABOUT</a></li>
-				<li><a href="#">SYLLABUS</a></li>
-				<li><a href="../../contribute/contribute.html">CONTRIBUTE</a></li>
-			</ul>
-		</div>
-	</nav>
-</section>
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span
+                        class="navbar-toggler-icon">
+                    </span>
+            </button>
 
-<!-- Main Container -->
-<section class="main-container">
+            <div 
+                class="collapse navbar-collapse"
+                id="navbarSupportedContent">
+                <ul
+                    class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li
+                        class="nav-item">
+                        <a
+                            class="nav-link"
+                            aria-current="page"
+                            href="../../index.html">
+                            About
+                        </a>
+                    </li>
+                    <li
+                        class="nav-item dropdown">
+                        <a
+                            class="nav-link dropdown-toggle active text-primary"
+                            href="#"
+                            id="navbarDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                          Courses
+                        </a>
+                        <ul
+                            class="dropdown-menu"
+                            aria-labelledby="navbarDropdown">
+                            <li><a
+                                    class="dropdown-item active"
+                                    href="../../stages/ug.html">
+                                    UG
+                                </a>
+                            </li>
+                            <li><a
+                                    class="dropdown-item"
+                                    href="#">
+                                    PG
+                                </a>
+                            </li>
+                            <li><a
+                                    class="dropdown-item"
+                                    href="#">
+                                    PhD
+                                </a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a
+                                    class="dropdown-item"
+                                    href="#">
+                                    Certificate
+                                </a>
+                            </li>
+                            <li><a
+                                    class="dropdown-item"
+                                    href="#">
+                                    Diploma
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li
+                        class="nav-item">
+                        <a
+                            class="nav-link"
+                            href="#">
+                            Contribute
+                        </a>
+                    </li>
+                </ul>
+            </div>
 
-    <!-- Course Table -->
-    <section class="course-table">
-        <h1>Course Timeline Distribution</h1>
+        </div>
+    </nav>
 
-        <table class="syllabus-table">
-            <thead>
-                <tr>
-                    <th>Year</th>
-                    <th>Semester</th>
-                    <th><a href="#dsc-block">Discipline Specific Core Course</a></th>
-                    <th><a href="#aecc-block">Ability Enhancement Compulsory Course</a></th>
-                    <th><a href="#sec-block">Skill Enhancement Course</a></th>
-                    <th><a href="#dse-block">Elective Discipline Specific Course</a></th>
-                    <th><a href="#ge-block">Generic Elective</a></th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Ist Year -->
-                <tr>
-                    <td>I</td>
-                        <td class="text-align-center">1</td>
-                            <td>Programming Fundamentals Using C++</td>
-                            <td class="text-align-center">AECC-1</td>
-                            <td></td>
-                            <td></td>
-                            <td class="text-align-center">GE-1</td>
-                </tr>
-                <tr class="course-divider">
-                    <td></td>
-                        <td></td>
-                            <td>Computer Science Architecture</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                        <td class="text-align-center">2</td>
-                            <td>Programming in JAVA</td>
-                            <td class="text-align-center">AECC-2</td>
-                            <td></td>
-                            <td></td>
-                            <td class="text-align-center">GE-2</td>
-                </tr>
-                <tr class="sem-divider">
-                    <td></td>
-                        <td></td>
-                            <td>Discrete Structures</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                </tr>
-                <!-- IInd Year -->
-                <tr>
-                    <td>II</td>
-                        <td class="text-align-center">3</td>
-                            <td>Data Structure</td>
-                            <td></td>
-                            <td class="text-align-center">SEC-1</td>
-                            <td></td>
-                            <td class="text-align-center">GE-3</td>
-                </tr>
-                <tr>
-                    <td></td>
-                        <td></td>
-                            <td>Operating System</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                </tr>
-                <tr class="course-divider">
-                    <td></td>
-                        <td></td>
-                            <td>Computer Networks</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                        <td class="text-align-center">4</td>
-                            <td>Design & Analysis of Algorithms</td>
-                            <td></td>
-                            <td class="text-align-center">SEC-2</td>
-                            <td></td>
-                            <td class="text-align-center">GE-4</td>
-                </tr>
-                <tr>
-                    <td></td>
-                        <td></td>
-                            <td>Software Engineering</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                </tr>
-                <tr class="sem-divider">
-                    <td></td>
-                        <td></td>
-                            <td>Database Management Systems</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                </tr>
-                <!-- IInd Year -->
-                <tr>
-                    <td>III</td>
-                        <td class="text-align-center">5</td>
-                            <td>Internet Technologies</td>
-                            <td></td>
-                            <td></td>
-                            <td class="text-align-center">DSC-1</td>
-                            <td></td>
-                </tr>
-                <tr class="course-divider">
-                    <td></td>
-                        <td></td>
-                            <td>Theory of Computation</td>
-                            <td></td>
-                            <td></td>
-                            <td class="text-align-center">DSC-2</td>
-                            <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                        <td class="text-align-center">6</td>
-                            <td>Artificial Intelligence</td>
-                            <td></td>
-                            <td></td>
-                            <td class="text-align-center">DSC-3</td>
-                            <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                        <td></td>
-                            <td>Computer Graphics</td>
-                            <td></td>
-                            <td></td>
-                            <td class="text-align-center">DSC-4</td>
-                            <td></td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
+    <!-- Main Container -->
+    <section class="container">
 
-    <!-- List of All Courses -->
-    <section class="course-list">
+        <!-- Course Table -->
+        <div class="course-table">
+            <h2
+                style="color: #FF914D;">
+                BSc Hons. Computer Science
+            </h2>
 
-        <!-- Discipline Specific Core Course -->
-        <div class="dsc-block" id="dsc-block">
-            <div class="list-block" style="background-color: #f5f5f5;">
-                <h2>Discipline Specific Core Course (DSC)</h2>
-                <div class="list-block-content">
-                    <!-- List of DSC Courses -->
-                    <div class="dsc-course-list" style="flex: 2;">
-                        <div class="dsc-course-name"><a href="courses/dsc/bhcs01.html">BHCS01 - Programming Fundamentals Using C++</a> </div> 
-                        <div class="dsc-course-name"><a href="courses/dsc/bhcs02.html">BHCS02 - Computer Science Architecture</a> </div>
-                        <div class="dsc-course-name"><a href="courses/dsc/bhcs03.html">BHCS03 - Programming in JAVA</a> </div>
-                        <div class="dsc-course-name"><a href="courses/dsc/bhcs04.html">BHCS04 - Discrete Structures</a> </div>
-                        <div class="dsc-course-name"><a href="courses/dsc/bhcs05.html">BHCS05 - Data Structure</a> </div>
-                        <div class="dsc-course-name"><a href="courses/dsc/bhcs06.html">BHCS06 - Operating System</a> </div>
-                        <div class="dsc-course-name"><a href="courses/dsc/bhcs07.html">BHCS07 - Computer Networks</a> </div>
-                        <div class="dsc-course-name"><a href="courses/dsc/bhcs08.html">BHCS08 - Design & Analysis of Algorithms</a> </div>
-                        <div class="dsc-course-name"><a href="courses/dsc/bhcs09.html">BHCS09 - Software Engineering</a> </div>
-                        <div class="dsc-course-name"><a href="courses/dsc/bhcs10.html">BHCS10 - Database Management Systems</a> </div>
-                        <div class="dsc-course-name"><a href="courses/dsc/bhcs11.html">BHCS11 - Internet Technologies</a> </div>
-                        <div class="dsc-course-name"><a href="courses/dsc/bhcs12.html">BHCS12 - Theory of Computation</a> </div>
-                        <div class="dsc-course-name"><a href="courses/dsc/bhcs13.html">BHCS13 - Artificial Intelligence</a> </div>
-                        <div class="dsc-course-name"><a href="courses/dsc/bhcs14.html">BHCS14 - Computer Graphics</a> </div>
+            <table class="syllabus-table">
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Semester</th>
+                        <th><a href="#dsc-block">Discipline Specific Core Course</a></th>
+                        <th><a href="#aecc-block">Ability Enhancement Compulsory Course</a></th>
+                        <th><a href="#sec-block">Skill Enhancement Course</a></th>
+                        <th><a href="#dse-block">Elective Discipline Specific Course</a></th>
+                        <th><a href="#ge-block">Generic Elective</a></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Ist Year -->
+                    <tr>
+                        <td>I</td>
+                            <td class="text-align-center">1</td>
+                                <td>Programming Fundamentals Using C++</td>
+                                <td class="text-align-center">AECC-1</td>
+                                <td></td>
+                                <td></td>
+                                <td class="text-align-center">GE-1</td>
+                    </tr>
+                    <tr class="course-divider">
+                        <td></td>
+                            <td></td>
+                                <td>Computer Science Architecture</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                            <td class="text-align-center">2</td>
+                                <td>Programming in JAVA</td>
+                                <td class="text-align-center">AECC-2</td>
+                                <td></td>
+                                <td></td>
+                                <td class="text-align-center">GE-2</td>
+                    </tr>
+                    <tr class="sem-divider">
+                        <td></td>
+                            <td></td>
+                                <td>Discrete Structures</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                    </tr>
+                    <!-- IInd Year -->
+                    <tr>
+                        <td>II</td>
+                            <td class="text-align-center">3</td>
+                                <td>Data Structure</td>
+                                <td></td>
+                                <td class="text-align-center">SEC-1</td>
+                                <td></td>
+                                <td class="text-align-center">GE-3</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                            <td></td>
+                                <td>Operating System</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                    </tr>
+                    <tr class="course-divider">
+                        <td></td>
+                            <td></td>
+                                <td>Computer Networks</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                            <td class="text-align-center">4</td>
+                                <td>Design & Analysis of Algorithms</td>
+                                <td></td>
+                                <td class="text-align-center">SEC-2</td>
+                                <td></td>
+                                <td class="text-align-center">GE-4</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                            <td></td>
+                                <td>Software Engineering</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                    </tr>
+                    <tr class="sem-divider">
+                        <td></td>
+                            <td></td>
+                                <td>Database Management Systems</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                    </tr>
+                    <!-- IInd Year -->
+                    <tr>
+                        <td>III</td>
+                            <td class="text-align-center">5</td>
+                                <td>Internet Technologies</td>
+                                <td></td>
+                                <td></td>
+                                <td class="text-align-center">DSC-1</td>
+                                <td></td>
+                    </tr>
+                    <tr class="course-divider">
+                        <td></td>
+                            <td></td>
+                                <td>Theory of Computation</td>
+                                <td></td>
+                                <td></td>
+                                <td class="text-align-center">DSC-2</td>
+                                <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                            <td class="text-align-center">6</td>
+                                <td>Artificial Intelligence</td>
+                                <td></td>
+                                <td></td>
+                                <td class="text-align-center">DSC-3</td>
+                                <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                            <td></td>
+                                <td>Computer Graphics</td>
+                                <td></td>
+                                <td></td>
+                                <td class="text-align-center">DSC-4</td>
+                                <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- List of All Courses -->
+        <div class="course-list">
+
+            <!-- Discipline Specific Core Course -->
+            <div class="dsc course-block" id="dsc-block">
+                <div class="list-block" style="background-color: #f5f5f5;">
+                    <h2>Discipline Specific Core Course (DSC)</h2>
+                    <div class="list-block-content">
+                        <!-- List of DSC Courses -->
+                        <div class="dsc-course-list" style="flex: 2;">
+                            <div class="course-name"><a href="courses/dsc/bhcs01.html">BHCS01 - Programming Fundamentals Using C++</a> </div> 
+                            <div class="course-name"><a href="courses/dsc/bhcs02.html">BHCS02 - Computer Science Architecture</a> </div>
+                            <div class="course-name"><a href="courses/dsc/bhcs03.html">BHCS03 - Programming in JAVA</a> </div>
+                            <div class="course-name"><a href="courses/dsc/bhcs04.html">BHCS04 - Discrete Structures</a> </div>
+                            <div class="course-name"><a href="courses/dsc/bhcs05.html">BHCS05 - Data Structure</a> </div>
+                            <div class="course-name"><a href="courses/dsc/bhcs06.html">BHCS06 - Operating System</a> </div>
+                            <div class="course-name"><a href="courses/dsc/bhcs07.html">BHCS07 - Computer Networks</a> </div>
+                            <div class="course-name"><a href="courses/dsc/bhcs08.html">BHCS08 - Design & Analysis of Algorithms</a> </div>
+                            <div class="course-name"><a href="courses/dsc/bhcs09.html">BHCS09 - Software Engineering</a> </div>
+                            <div class="course-name"><a href="courses/dsc/bhcs10.html">BHCS10 - Database Management Systems</a> </div>
+                            <div class="course-name"><a href="courses/dsc/bhcs11.html">BHCS11 - Internet Technologies</a> </div>
+                            <div class="course-name"><a href="courses/dsc/bhcs12.html">BHCS12 - Theory of Computation</a> </div>
+                            <div class="course-name"><a href="courses/dsc/bhcs13.html">BHCS13 - Artificial Intelligence</a> </div>
+                            <div class="course-name"><a href="courses/dsc/bhcs14.html">BHCS14 - Computer Graphics</a> </div>
+                        </div>
+
+                        <!-- Credits Info -->
+                        <div class="misc-info container-sm">
+                            <ul class="misc-info-box" style="background-color: #fff; list-style-type: none;">
+                                <!-- <li>Courses: 14</li> -->
+                                <li>Credits: 6 each</li>
+                                <li>Total Credits: 14 * 6 = 84</li>
+                            </li>
+                        </div>
                     </div>
+                </div>
+            </div>
 
-                    <!-- Credits Info -->
-                    <div class="misc-info">
-                        <div class="misc-info-box" style="background-color: #fff;">
-                            <p>Courses: 14</p>
-                            <p>Credits: 6 * 14 = 84</p>
+            <!-- Skill Enhancement Course -->
+            <div class="sec course-block" id= "sec-block" style="padding-top: 10px;">
+                <div class="list-block">
+                    <h2>Skill Enhancement Course (SEC) - 2</h2>
+                    <div class="list-block-content">
+                        <!-- List of SEC Courses -->
+                        <div class="sec-course-list" style="flex: 2;">
+                            <div class="sec-1" style="padding-bottom: 6px;">
+                                <p style="font-size: 22px; font-weight: 560;">SEC-1</p>
+                                <div class="course-name left-margin"><a href="courses/sec/bhcs19A.html">BHCS19A - Web Design and Development</a></div>
+                                <div class="course-name left-margin"><a href="courses/sec/bhcs19B.html">BHCS19B - Programming in Python</a></div>
+                            </div>
+                            
+                            <div class="sec-2" style="padding-bottom: 6px;">
+                                <p style="font-size: 22px; font-weight: 560;">SEC-2</p>
+                                <div class="course-name left-margin"><a href="courses/sec/bhcs20A.html">BHCS20A - Android Programming</a></div>
+                                <div class="course-name left-margin"><a href="courses/sec/bhcs20B.html">BHCS20B - Introduction to R Programming</a></div>
+                            </div>
+                        </div>
+
+                        <!-- Credits Info -->
+                        <div class="misc-info">
+                            <ul class="misc-info-box" style="background-color: #f5f5f5; list-style-type: none;">
+                                <!-- <li>Courses: 2</li> -->
+                                <li>Credits: 4 each</li>
+                                <li>Total Credits: 2 * 4 = 8</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Elective Discipline Specific Course -->
+            <div class="dse course-block" id= "dse-block">
+                <div class="list-block" style="background-color: #f5f5f5;">
+                    <h2>Elective Discipline Specific Course (DSE) - 4</h2>
+                    <div class="list-block-content">
+                        <!-- List of DSE Courses -->
+                        <div class="dse-course-list" style="flex: 2">
+                            <div class="dse-1" style="padding-bottom: 6px;">
+                                <p style="font-size: 22px; font-weight: 560;">DSE-1</p>
+                                <div class="course-name left-margin"><a href="courses/dse/bhcs15A.html">BHCS15A - Data Analysis and Visualization</a></div>
+                                <div class="course-name left-margin"><a href="courses/dse/bhcs15B.html">BHCS15B - System Programming</a></div>
+                                <div class="course-name left-margin"><a href="courses/dse/bhcs15C.html">BHCS15C - Combinatorial Optimization</a></div>
+                            </div>
+                            <div class="dse-2" style="padding-bottom: 6px;">
+                                <p style="font-size: 22px; font-weight: 560;">DSE-2</p>
+                                <div class="course-name left-margin"><a href="courses/dse/bhcs16A.html">BHCS16A - Digital Image Processing</a></div>
+                                <div class="course-name left-margin"><a href="courses/dse/bhcs16B.html">BHCS16B - Microprocessors</a></div>
+                            </div>
+                            <div class="dse-3" style="padding-bottom: 6px;">
+                                <p style="font-size: 22px; font-weight: 560;">DSE-3</p>
+                                <div class="course-name left-margin"><a href="courses/dse/bhcs17A.html">BHCS17A - Information Security</a></div>
+                                <div class="course-name left-margin"><a href="courses/dse/bhcs17B.html">BHCS17B - Data Mining</a></div>
+                                <div class="course-name left-margin"><a href="courses/dse/bhcs17C.html">BHCS17C - Advanced Algorithms</a></div>
+                            </div>
+                            <div class="dse-4" style="padding-bottom: 6px;">
+                                <p style="font-size: 22px; font-weight: 560;">DSE-4</p>
+                                <div class="course-name left-margin"><a href="courses/dse/bhcs18A.html">BHCS18A - Machine Learning</a></div>
+                                <div class="course-name left-margin"><a href="courses/dse/bhcs18B.html">BHCS18B - Deep Learning</a></div>
+                                <div class="course-name left-margin"><a href="courses/dse/bhcs18C.html">BHCS18C - Unix Network Programming</a></div>
+                                <div class="course-name left-margin"><a href="courses/dse/bhcs18D.html">BHCS18D - Project Work/ Dissertation</a></div>
+                            </div>
+                        </div>
+
+                        <!-- Credits Info -->
+                        <div class="misc-info">
+                            <ul class="misc-info-box" style="background-color: #fff; list-style-type: none;">
+                                <!-- <li>Courses: 4</li> -->
+                                <li>Credits: 6 each</li>
+                                <li>Total Credits: 4 * 6 = 24</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Ability Enhancement Compulsory Course -->
+            <div class="aecc course-block" id= "aecc-block" style="padding-top: 10px;">
+                <div class="list-block">
+                    <h2>Ability Enhancement Compulsory Course (AECC) - 2</h2>
+                    <!-- List of AECC Courses -->
+                    <div class="list-block-content">
+                        <div class="aecc-course-list" style="flex: 2;">
+                            <div class="course-name"><a href="courses/">English</a></div>
+                            <div class="course-name"><a href="courses/">Environmental Science</a></div>
+                        </div>
+
+                        <!-- Credits Info -->
+                        <div class="misc-info">
+                            <ul class="misc-info-box" style="background-color: #f5f5f5; list-style-type: none;">
+                                <!-- <li>Courses: 2</li> -->
+                                <li>Credits: 4 each</li>
+                                <li>Total Credits: 2 * 4 = 8</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- General Elective Course -->
+            <div class="ge course-block" id= "ge-block">
+                <div class="list-block" style="background-color: #f5f5f5;">
+                    <h2>Generic Elective (GE)</h2>
+                    <p style="font-size: 20px; padding-bottom: 15px;">A General Elective course is chosen generally from an other unrelated discipline/subject, with an
+                        intention to seek exposure in fields apart from the chosen discipline.
+                    </p>
+                    <!-- List of GE Courses -->
+                    <div class="list-block-content">
+                        <div class="ge-course-list" style="flex: 2;">
+                            <div class="course-name"><a href="courses/">GE-1</a></div>
+                            <div class="course-name"><a href="courses/">GE-2</a></div>
+                            <div class="course-name"><a href="courses/">GE-3</a></div>
+                            <div class="course-name"><a href="courses/">GE-4</a></div>
+                        </div>
+
+                        <!-- Credits Info -->
+                        <div class="misc-info">
+                            <ul class="misc-info-box" style="background-color: #fff; list-style-type: none;">
+                                <!-- <li>Courses: 4</li> -->
+                                <li>Credits: 6 each</li>
+                                <li>Total Credits: 4 * 6 = 24</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Skill Enhancement Course -->
-        <div class="sec-block" id= "sec-block" style="padding-top: 10px;">
+        <!-- Electives By department -->
+        <div class="depart-ge-block" id= "depart-ge-block" style="padding-top: 30px;">
             <div class="list-block">
-                <h2>Skill Enhancement Course (SEC)</h2>
-                <div class="list-block-content">
-                    <!-- List of SEC Courses -->
-                    <div class="sec-course-list" style="flex: 2;">
-                        <div class="sec-1" style="padding-bottom: 6px;">
-                            <p style="font-size: 22px; font-weight: 560;">SEC-1</p>
-                            <div class="sec-course-name"><a href="courses/sec/bhcs19A.html">BHCS19A - Web Design and Development</a></div>
-                            <div class="sec-course-name"><a href="courses/sec/bhcs19B.html">BHCS19B - Programming in Python</a></div>
-                        </div>
-                        
-                        <div class="sec-2" style="padding-bottom: 6px;">
-                            <p style="font-size: 22px; font-weight: 560;">SEC-2</p>
-                            <div class="sec-course-name"><a href="courses/sec/bhcs20A.html">BHCS20A - Android Programming</a></div>
-                            <div class="sec-course-name"><a href="courses/sec/bhcs20B.html">BHCS20B - Introduction to R Programming</a></div>
-                        </div>
-                    </div>
-
-                    <!-- Credits Info -->
-                    <div class="misc-info">
-                        <div class="misc-info-box" style="background-color: #f5f5f5;">
-                            <p>Courses: 2</p>
-                            <p>Credits: 4 * 2 = 8</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Elective Discipline Specific Course -->
-        <div class="dse-block" id= "dse-block">
-            <div class="list-block" style="background-color: #f5f5f5;">
-                <h2>Elective Discipline Specific Course (DSE)</h2>
-                <div class="list-block-content">
-                    <!-- List of DSE Courses -->
-                    <div class="dse-course-list" style="flex: 2">
-                        <div class="dse-1" style="padding-bottom: 6px;">
-                            <p style="font-size: 22px; font-weight: 560;">DSE-1</p>
-                            <div class="dse-course-name"><a href="courses/dse/bhcs15A.html">BHCS15A - Data Analysis and Visualization</a></div>
-                            <div class="dse-course-name"><a href="courses/dse/bhcs15B.html">BHCS15B - System Programming</a></div>
-                            <div class="dse-course-name"><a href="courses/dse/bhcs15C.html">BHCS15C - Combinatorial Optimization</a></div>
-                        </div>
-                        <div class="dse-2" style="padding-bottom: 6px;">
-                            <p style="font-size: 22px; font-weight: 560;">DSE-2</p>
-                            <div class="dse-course-name"><a href="courses/dse/bhcs16A.html">BHCS16A - Digital Image Processing</a></div>
-                            <div class="dse-course-name"><a href="courses/dse/bhcs16B.html">BHCS16B - Microprocessors</a></div>
-                        </div>
-                        <div class="dse-3" style="padding-bottom: 6px;">
-                            <p style="font-size: 22px; font-weight: 560;">DSE-3</p>
-                            <div class="dse-course-name"><a href="courses/dse/bhcs17A.html">BHCS17A - Information Security</a></div>
-                            <div class="dse-course-name"><a href="courses/dse/bhcs17B.html">BHCS17B - Data Mining</a></div>
-                            <div class="dse-course-name"><a href="courses/dse/bhcs17C.html">BHCS17C - Advanced Algorithms</a></div>
-                        </div>
-                        <div class="dse-4" style="padding-bottom: 6px;">
-                            <p style="font-size: 22px; font-weight: 560;">DSE-4</p>
-                            <div class="dse-course-name"><a href="courses/dse/bhcs18A.html">BHCS18A - Machine Learning</a></div>
-                            <div class="dse-course-name"><a href="courses/dse/bhcs18B.html">BHCS18B - Deep Learning</a></div>
-                            <div class="dse-course-name"><a href="courses/dse/bhcs18C.html">BHCS18C - Unix Network Programming</a></div>
-                            <div class="dse-course-name"><a href="courses/dse/bhcs18D.html">BHCS18D - Project Work/ Dissertation</a></div>
-                        </div>
-                    </div>
-
-                    <!-- Credits Info -->
-                    <div class="misc-info">
-                        <div class="misc-info-box" style="background-color: #fff;">
-                            <p>Courses: 4</p>
-                            <p>Credits: 6 * 4 = 24</p>
-                        </div>
+                <h2>Generic Elective offered to other discipline students</h2>
+                <p style="padding-bottom: 15px;">These courses are offered to the students of other discipline/subects. A student who
+                    is pursuing BSc. Hons in Computer Science cannot choose courses from this list. These courses are of <b>6 credits</b> each.</p>
+                <!-- List of GE Courses -->
+                <div class="ge-course-content">
+                    <div class="ge-course-list">
+                        <div class="course-name"><a href="courses/">-</a></div>
+                        <div class="course-name"><a href="courses/">-</a></div>
+                        <div class="course-name"><a href="courses/">-</a></div>
+                        <div class="course-name"><a href="courses/">-</a></div>
                     </div>
                 </div>
             </div>
         </div>
         
-        <!-- Ability Enhancement Compulsory Course -->
-        <div class="aecc-block" id= "aecc-block" style="padding-top: 10px;">
-            <div class="list-block">
-                <h2>Ability Enhancement Compulsory Course (AECC)</h2>
-                <!-- List of AECC Courses -->
-                <div class="list-block-content">
-                    <div class="aecc-course-list" style="flex: 2;">
-                        <div class="aecc-course-name"><a href="courses/">English</a></div>
-                        <div class="aecc-course-name"><a href="courses/">Environmental Science</a></div>
-                    </div>
+    </section>
 
-                    <!-- Credits Info -->
-                    <div class="misc-info">
-                        <div class="misc-info-box" style="background-color: #f5f5f5;">
-                            <p>Courses: 2</p>
-                            <p>Credits: 4 * 2 = 8</p>
-                        </div>
+    <!-- Footer -->
+    <section class="footer bg-black">
+        <div class="footer-content container d-flex justify-content-evenly">
+            <div class="f-box f-about">
+                <h3>About</h3>
+                <p>The website aims to present syllabus of all the courses, 
+                    offered Delhi University, in a more interactive manner than pdfs.</p>
+            </div>
+            <div class="f-box f-courses">
+                <h3>Courses</h3>
+                <div 
+                    class="d-flex justify-content-between"
+                    style="max-width: 250px; color: white;">
+                    <div>
+                        <div>UG Courses</div>
+                        <div>Certificates</div>
+                        <div>PhD</div>
+                    </div>
+                    <div>
+                        <div>PG Courses</div>
+                        <div>Diploma</div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <!-- General Elective Course -->
-        <div class="ge-block" id= "ge-block">
-            <div class="list-block" style="background-color: #f5f5f5;">
-                <h2>Generic Elective (GE)</h2>
-                <p style="font-size: 20px; padding-bottom: 15px;">A General Elective course is chosen generally from an other unrelated discipline/subject, with an
-                    intention to seek exposure in fields apart from the chosen discipline.
+            <div class="f-box f-contact">
+                <h3>Contact</h3>
+    			<p>Email: <a
+                            href="mailto:keshavandteam@gmail.com" 
+                            style="text-decoration: none; color: #fff;">
+                            keshavandteam@gmail.com
+                        </a>
                 </p>
-                <!-- List of GE Courses -->
-                <div class="list-block-content">
-                    <div class="ge-course-list" style="flex: 2;">
-                        <div class="ge-course-name"><a href="courses/">GE-1</a></div>
-                        <div class="ge-course-name"><a href="courses/">GE-2</a></div>
-                        <div class="ge-course-name"><a href="courses/">GE-3</a></div>
-                        <div class="ge-course-name"><a href="courses/">GE-4</a></div>
-                    </div>
-
-                    <!-- Credits Info -->
-                    <div class="misc-info">
-                        <div class="misc-info-box" style="background-color: #fff;">
-                            <p>Courses: 4</p>
-                            <p>Credits: 6 * 4 = 24</p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
-
-    <!-- Electives By department -->
-    <section class="depart-ge-block" id= "depart-ge-block" style="padding-top: 30px;">
-        <div class="list-block">
-            <h2>Generic Elective offered to other discipline students</h2>
-            <p style="font-size: 20px; padding-bottom: 15px;">These courses are offered to the students of other discipline/subects. A student who
-                is pursuing BSc. Hons in Computer Science cannot choose courses from this list. These courses are of <b>6 credits</b> each.</p>
-            <!-- List of GE Courses -->
-            <div class="ge-course-content">
-                <div class="ge-course-list">
-                    <div class="ge-course-name"><a href="courses/">-</a></div>
-                    <div class="ge-course-name"><a href="courses/">-</a></div>
-                    <div class="ge-course-name"><a href="courses/">-</a></div>
-                    <div class="ge-course-name"><a href="courses/">-</a></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-</section>
-
-<!-- Footer -->
-<section class="footer">
-	<div class="footer-content">
-		<div class="mail" style="flex: 1;">
-			<h3>Contact Us</h3>
-			<p>Email: <a href="mailto:keshavandteam@gmail.com" style="text-decoration: none; color: #fff;">keshavandteam@gmail.com</a> </p>
-		</div>
-
-	 	<div class="contribute" style="flex: 2;">
-			<h3>Contribute</h3>
-			<ul>
-				<li>Code webpage for a course</li>
-				<li>Validate the content</li>
-			</ul>
-			<p></p>
-		</div>
-</section>
 
 </body>
 </html>
